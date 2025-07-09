@@ -20,6 +20,21 @@ header.hero {
   margin-bottom: 0.5rem;
 }
 
+.tagline {
+  margin-bottom: 1.5rem;
+}
+
+.main-tagline {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.sub-tagline {
+  font-size: 1.1rem;
+  margin-top: 0.3rem;
+  color: #ccc;
+}
+
 .hero p {
   font-size: 1.25rem;
   margin-bottom: 1.5rem;
