@@ -1,18 +1,18 @@
-/* style.css for SuperRare homepage */
+/* style.css – SuperRare Homepage Styles */
 
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f2f2f2;
+  background-color: #f4f4f4;
   color: #333;
   line-height: 1.6;
 }
 
 header.hero {
-  background: #121212;
+  background-color: #121212;
   color: #fff;
   text-align: center;
-  padding: 4rem 1rem;
+  padding: 4rem 1rem 2rem;
 }
 
 .hero h1 {
@@ -23,54 +23,49 @@ header.hero {
 .hero p {
   font-size: 1.25rem;
   margin-bottom: 1.5rem;
+  line-height: 1.4;
 }
 
-.button {
-  display: inline-block;
-  background: #0077ff;
-  color: #fff;
-  padding: 0.75rem 1.5rem;
-  text-decoration: none;
-  border-radius: 5px;
-  margin: 0.25rem;
-  transition: background 0.3s ease;
-}
-
-.button:hover {
-  background: #005fcc;
-}
-
-.button.secondary {
-  background: #fff;
-  color: #0077ff;
-  border: 2px solid #0077ff;
-}
-
-.button.secondary:hover {
-  background: #0077ff;
-  color: #fff;
+.hero img.flyer {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 section {
-  padding: 2rem 1rem;
   max-width: 900px;
   margin: 0 auto;
+  padding: 2rem 1rem;
   text-align: center;
 }
 
-section img {
-  max-width: 100%;
-  height: auto;
-  margin: 1rem 0;
-  border-radius: 10px;
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #0077ff;
+}
+
+section p {
+  font-size: 1.1rem;
+}
+
+a {
+  color: #0077ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 footer {
-  background: #1a1a1a;
+  background-color: #1a1a1a;
   color: #ccc;
   text-align: center;
   padding: 2rem 1rem;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 
 footer a {
@@ -85,7 +80,7 @@ footer a {
   .hero p {
     font-size: 1rem;
   }
-  .button {
-    padding: 0.5rem 1rem;
+  section h2 {
+    font-size: 1.5rem;
   }
 }
