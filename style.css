@@ -135,3 +135,25 @@ footer a {
     font-size: 1.5rem;
   }
 }
+/* Center all text inside key sections */
+section.about,
+section.social,
+footer {
+  text-align: center;
+}
+
+/* Center <p> and <a> tags inside those sections */
+section p,
+section a,
+footer p,
+footer a {
+  display: inline-block;
+  text-align: center;
+  margin: 0.5rem auto;
+}
+
+/* Center-align h2 titles just to be safe */
+section h2,
+footer h2 {
+  text-align: center;
+}
