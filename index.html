@@ -5,63 +5,115 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SuperRare - TCG & Collectibles</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    header.hero {
+      border: 4px solid transparent;
+      border-radius: 20px;
+      padding: 3rem 1rem 2rem;
+      background-image: linear-gradient(#0acffe, #495aff), linear-gradient(to right, #ffecd2, #fcb69f);
+      background-origin: border-box;
+      background-clip: content-box, border-box;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    body {
+      font-family: 'Press Start 2P', cursive;
+      color: #1f1f1f;
+    }
+
+    hr.gradient {
+      height: 4px;
+      border: none;
+      background: linear-gradient(to right, #0acffe, #495aff);
+      margin: 2rem auto;
+      width: 60%;
+    }
+
+    section.social a {
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    section.social a:hover {
+      background: #e6f0ff;
+      transform: translateY(-3px);
+    }
+
+    .back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px 15px;
+      background: #495aff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+      font-family: sans-serif;
+    }
+
+    .back-to-top:hover {
+      background: #0acffe;
+    }
+  </style>
 </head>
 <body>
   <header class="hero">
     <h1>SuperRare</h1>
     <div class="tagline">
-  <p class="main-tagline">TCG & Collectibles Show</p>
-  <p class="sub-tagline">Buy • Sell • Trade • Collect</p>
-</div>
-
+      <p class="main-tagline">TCG & Collectibles Show</p>
+      <p class="sub-tagline">Buy • Sell • Trade • Collect</p>
+    </div>
     <img src="pokehuna-flyer.jpg" alt="Pokéhuna Beach Bash Flyer" class="flyer" />
   </header>
 
   <div class="vendor-signup">
-  <a href="https://www.ontreasure.com/events/pokehuna-beach-bash-08092025-2" class="button" target="_blank" rel="noopener">Sign Up to be a Vendor!</a>
-    
+    <a href="https://www.ontreasure.com/events/pokehuna-beach-bash-08092025-2" class="button" target="_blank" rel="noopener">Sign Up to be a Vendor!</a>
   </div>
 
-<section class="about">
-  <h2>About SuperRare</h2>
-  <p>
-    SuperRare is an event organizer & promoter serving Virginia Beach, VA. Bringing together the best of Pokémon, anime, TCGs, gaming, art, & pop culture collectibles! Our shows strive to connect communities, showcase vendors, and celebrate the culture of collecting!
-  </p>
-  
-</section>
+  <hr class="gradient" />
 
-  
+  <section class="about">
+    <h2>About SuperRare</h2>
+    <p>
+      SuperRare is an event organizer & promoter serving Virginia Beach, VA. Bringing together the best of Pokémon, anime, TCGs, gaming, art, & pop culture collectibles! Our shows strive to connect communities, showcase vendors, and celebrate the culture of collecting!
+    </p>
+  </section>
+
+  <hr class="gradient" />
 
   <section class="social">
-  <h2>Follow Us</h2>
-  <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem; margin-top: 1rem;">
-    <a href="https://instagram.com/superrare_va" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 12px; font-size: 1.1rem; color: #333; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; background: #fff; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;" onmouseover="this.style.background='#f0f0ff'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#fff'; this.style.transform='none'">
-      <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="#E1306C" height="24" width="24">
-        <title>Instagram</title>
-        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.31.975.975 1.247 2.242 1.31 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.063 1.366-.335 2.633-1.31 3.608-.975.975-2.242 1.247-3.608 1.31-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.063-2.633-.335-3.608-1.31-.975-.975-1.247-2.242-1.31-3.608C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.063-1.366.335-2.633 1.31-3.608C4.518 2.497 5.785 2.225 7.151 2.163 8.417 2.105 8.797 2.163 12 2.163zm0 1.838c-3.17 0-3.548.012-4.797.07-1.087.05-1.684.24-2.078.406a3.994 3.994 0 0 0-1.428.927 3.994 3.994 0 0 0-.927 1.428c-.165.394-.355.99-.406 2.078-.058 1.249-.07 1.627-.07 4.797s.012 3.548.07 4.797c.05 1.087.24 1.684.406 2.078.205.491.484.933.927 1.428.495.443.937.722 1.428.927.394.165.99.355 2.078.406 1.249.058 1.627.07 4.797.07s3.548-.012 4.797-.07c1.087-.05 1.684-.24 2.078-.406a3.994 3.994 0 0 0 1.428-.927 3.994 3.994 0 0 0 .927-1.428c.165-.394.355-.99.406-2.078.058-1.249.07-1.627.07-4.797s-.012-3.548-.07-4.797c-.05-1.087-.24-1.684-.406-2.078a3.994 3.994 0 0 0-.927-1.428 3.994 3.994 0 0 0-1.428-.927c-.394-.165-.99-.355-2.078-.406-1.249-.058-1.627-.07-4.797-.07zm0 4.838a5.999 5.999 0 1 0 0 11.998 5.999 5.999 0 0 0 0-11.998zm0 1.838a4.161 4.161 0 1 1 0 8.322 4.161 4.161 0 0 1 0-8.322zm6.406-2.204a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/>
-      </svg>
-      superrare_va
-    </a>
-    <a href="https://tiktok.com/@superrare_va" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 12px; font-size: 1.1rem; color: #333; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; background: #fff; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;" onmouseover="this.style.background='#f0f0ff'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#fff'; this.style.transform='none'">
-      <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="#000000" height="24" width="24">
-        <title>TikTok</title>
-        <path d="M12.831 2.25a6.086 6.086 0 0 0 .064.844c.23 1.866 1.645 3.37 3.466 3.632a3.61 3.61 0 0 0 1.196-.002v2.457a6.169 6.169 0 0 1-1.687-.196v6.566a5.583 5.583 0 1 1-5.583-5.583c.19 0 .378.01.563.029v2.471a2.986 2.986 0 1 0 2.986 2.986V2.25z"/>
-      </svg>
-      superrare_va
-    </a>
-    <a href="https://www.facebook.com/SuperRare" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 12px; font-size: 1.1rem; color: #333; text-decoration: none; padding: 0.5rem 1rem; border-radius: 8px; background: #fff; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); transition: all 0.3s ease;" onmouseover="this.style.background='#f0f0ff'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='#fff'; this.style.transform='none'">
-      <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="#1877F2" height="24" width="24">
-        <title>Facebook</title>
-        <path d="M22.675 0h-21.35C.597 0 0 .598 0 1.326v21.348C0 23.403.597 24 1.326 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.466.099 2.798.143v3.24l-1.922.001c-1.506 0-1.796.716-1.796 1.765v2.314h3.587l-.467 3.622h-3.12V24h6.116C23.403 24 24 23.403 24 22.674V1.326C24 .598 23.403 0 22.675 0z"/>
-      </svg>
-      SuperRare
-    </a>
-  </div>
-</section>
+    <h2>Follow Us</h2>
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem; margin-top: 1rem;">
+      <a href="https://instagram.com/superrare_va" target="_blank" rel="noopener">
+        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="#E1306C" height="24" width="24">
+          <title>Instagram</title>
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07..."/>
+        </svg>
+        superrare_va
+      </a>
+      <a href="https://tiktok.com/@superrare_va" target="_blank" rel="noopener">
+        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="#000000" height="24" width="24">
+          <title>TikTok</title>
+          <path d="M12.831 2.25a6.086 6.086 0 0 0 ..."/>
+        </svg>
+        superrare_va
+      </a>
+      <a href="https://www.facebook.com/SuperRare" target="_blank" rel="noopener">
+        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="#1877F2" height="24" width="24">
+          <title>Facebook</title>
+          <path d="M22.675 0h-21.35C.597 0 0 .598 ..."/>
+        </svg>
+        SuperRare
+      </a>
+    </div>
+  </section>
 
   <footer>
     <p>&copy; 2025 SuperRare. All rights reserved.</p>
-    
   </footer>
+
+  <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">Top</button>
 </body>
 </html>
